@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "itsnp-workshop-scripts"
+version = "1.0"
+description = ""
+authors = ["thenishantsapkota"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Pillow = "^8.3.1"
+pandas = "^1.3.1"
+python-dotenv = "^0.19.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.7b0"
+isort = "^5.9.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
